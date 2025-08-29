@@ -3,10 +3,12 @@ import * as Joi from "joi";
 
 interface  EnVars{
     PORT:number,
+    DATABASE_URL:string
 }
 
 export const envsSchema = Joi.object({
-    PORT: Joi.number().required()
+    PORT: Joi.number().required(),
+    DATABASE_URL: Joi.string().required()
 })
 .unknown(true)
 
@@ -18,5 +20,6 @@ if (error) {
 const envVars: EnVars= value;
 
 export const envs={
-    port: envVars.PORT
+    port: envVars.PORT,
+    databaseUrl: envVars.DATABASE_URL
 }
