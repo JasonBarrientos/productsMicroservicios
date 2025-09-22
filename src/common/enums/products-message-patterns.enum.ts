@@ -1,7 +1,7 @@
 export  enum ProductsMessagePatterns  {   
-    CREATE='createProduct',
-    UPDATE='updateProduct',
-    DELETE='deleteProduct',
-    FIND_ALL='findAllProducts',
-    FIND_ONE='findOneProduct'
+    CREATE_PRODUCT='createProduct',
+    UPDATE_PRODUCT='updateProduct',
+    DELETE_PRODUCT='deleteProduct',
+    FIND_ALL_PRODUCT='findAllProducts',
+    FIND_ONE_PRODUCT='findOneProduct'
 }   
