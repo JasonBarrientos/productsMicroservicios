@@ -1,4 +1,4 @@
-export  enum Operations {   
+export  enum ProductsMessagePatterns  {   
     CREATE='createProduct',
     UPDATE='updateProduct',
     DELETE='deleteProduct',

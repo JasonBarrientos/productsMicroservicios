@@ -1,1 +1,1 @@
-export * from './operations.enum'
+export * from './products-message-patterns.enum';
